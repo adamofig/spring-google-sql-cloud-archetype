@@ -1,6 +1,9 @@
 package com.example.demo.codeExamples.usuario;
 
+import com.example.demo.codeExamples.publicaciones.Publicacion;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Usuario {
@@ -11,6 +14,8 @@ public class Usuario {
 
     private String nombre;
     private String email;
+
+
 
     public Long getId() {
         return id;
